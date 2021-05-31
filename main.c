@@ -7,7 +7,10 @@
 #include <stdio.h>
 #include <signal.h>
 #include <sys/time.h>
-
+int mass[100];
+ int Accumulator;
+ int InstructionCounter;
+ int F_reg;
 void timer(){
 	if(CU() == -1){
 		alarm(0);

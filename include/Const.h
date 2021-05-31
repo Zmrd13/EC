@@ -51,8 +51,8 @@ enum {
 };
 /*const*/
 #define swap "Files/swap.bin"
-static int mass[100];
-static int Accumulator;
-static int InstructionCounter;
-static int F_reg;
+extern int mass[100];
+extern int Accumulator;
+extern int InstructionCounter;
+extern int F_reg;
 #endif
